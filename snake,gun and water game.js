@@ -32,7 +32,8 @@ let game = ()=>{
 
     user_score = 0
     machine_score = 0
-    for (i = 1; i <= 8; i++) {
+    let n = parseInt(prompt("How many rounds you want to play ADMIN :"))
+    for (i = 1; i <= n; i++) {
         let a = userInput();
         let b = machineInput();
         console.log("Round", i)
